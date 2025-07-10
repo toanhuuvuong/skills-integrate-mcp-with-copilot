@@ -198,3 +198,28 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbar label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.toolbar select,
+.toolbar input[type="text"] {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.toolbar input[type="text"] {
+  min-width: 180px;
+}
